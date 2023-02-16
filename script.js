@@ -9,7 +9,6 @@ form.addEventListener("submit",function(event){
 	})
 	var cost=0;
 while(arr.length>1){
-	console.log(arr)
 	var res=Number(arr[0])+Number(arr[1]);
 	arr.splice(0,2);
 	arr.push(res);
