@@ -1,6 +1,6 @@
 //your code here
-function convert(a){
-	a.preventDefault();
+function convert(event){
+	event.preventDefault();
 	var inputValue=document.querySelector("input").value;
 	var arr=inputValue.split(",");
 	arr.sort(function(a,b){
@@ -18,4 +18,5 @@ while(arr.length>1){
 		return a-b;
 	});
 }
+document.getElementById("result").textContent=cost;
 document.getElementById("result").textContent=cost;
